@@ -19,7 +19,7 @@ This Terraform module creates an AWS CloudFront distribution with highly customi
 
 ```hcl
 module "cloudfront" {
-  source = "path/to/module"
+  source = "Senora-dev/cloudfront/aws"
 
   enabled             = true
   is_ipv6_enabled    = true
